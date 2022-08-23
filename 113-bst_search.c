@@ -1,4 +1,4 @@
-#include binary_trees.h
+#include "binary_trees.h"
 
 /**
  * bst_search - Search an element in a binary tree
