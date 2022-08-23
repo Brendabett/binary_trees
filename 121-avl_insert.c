@@ -1,4 +1,4 @@
-#include binary_trees.h
+#include "binary_trees.h"
 
 /**
  * balance_tree - Balances a tree
