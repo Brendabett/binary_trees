@@ -1,4 +1,4 @@
-#include binary_trees.h
+#include "binary_trees.h"
 
 /**
  * bst_insert - Inserts a new node into a tree
