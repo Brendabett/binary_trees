@@ -1,4 +1,4 @@
-#include binary_trees.h
+#include "binary_trees.h"
 
 /**
  * array_to_bst - Build a BST from an array
