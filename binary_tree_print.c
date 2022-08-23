@@ -31,14 +31,14 @@ s[depth][offset + left + i] = b[i];
 if (depth && is_left)
 {
 for (i = 0; i < width + right; i++)
-s[depth - 1][offset + left + width / 2 + i] = -;
-s[depth - 1][offset + left + width / 2] = .;
+s[depth - 1][offset + left + width / 2 + i] = '-';
+s[depth - 1][offset + left + width / 2] = '.';
 }
 else if (depth && !is_left)
 {
 for (i = 0; i < left + width; i++)
-s[depth - 1][offset - width / 2 + i] = -;
-s[depth - 1][offset + left + width / 2] = .;
+s[depth - 1][offset - width / 2 + i] = '-';
+s[depth - 1][offset + left + width / 2] = '.';
 }
 return (left + width + right);
 }
@@ -88,7 +88,7 @@ for (i = 0; i < height + 1; i++)
 {
 for (j = 254; j > 1; --j)
 {
-if (s[i][j] !=  )
+if (s[i][j] != ' ')
 break;
 s[i][j] = 0;
 }
